@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+{% load static %}
+<body>
+<form  action="booked/" method="post">
+        {% csrf_token %}
+        First Name      :<input type="text" name="f_name" width="100"><br>
+        Last Name       :<input type="text" name="l_name" value="" width="100"><br>
+        Address         :<input type="text" name="address" value="" width="225"><br>
+        Contact Number  :<input type="text" name="c_number" value="" width="20"><br>
+        Email           :<input type="text" name="c_email" value="" width="50"><br>
+        Guest Number    :<input type="text" name="g_number" value="" width="20"><br>
+        Check In        :<input type="text" name="check_in" value="" width="20"><br>
+        Check out       :<input type="text" name="check_out" value="" width="20"><br>
+        <input type="submit" value="Submit" >
+</form>
+
+</body>
+</html>

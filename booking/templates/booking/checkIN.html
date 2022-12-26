@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <title>Eunoey's Survey</title>
+  <link rel="stylesheet" href="{% static 'css/index.css' %}">
+</head>
+
+<body>
+  <div class="main-container">
+    <div class="survey-container">
+      <div class="survey-header">
+        <div class="cow-gif">
+          <img class="cow" src="../../static/css/cow.gif" alt="kalabaw">
+        </div>
+        <div class="eunoey">
+          <p>Eunoey's Online Check-Ins <span class="scam">(SCAM!!!)</span></p> 
+        </div>
+      </div>
+      <div class="survey-background">
+        <div class="survey-info-container">
+          <form  action="booked/" method="post" class="survey-info">
+              {% csrf_token %}
+            <div class="bookerInfo">
+              <label class="bookerLabel" for="fName">First Name</label>
+              <input class="bookerInput" type="text" id="fName" name="f_name" placeholder="First Name" required>
+            </div>
+            <div class="bookerInfo">
+              <label class="bookerLabel" for="lName">Last Name</label>
+              <input class="bookerInput" type="text" id="lName" name="l_name" placeholder="Last Name" required>
+            </div>
+            <div class="bookerInfo">
+              <label class="bookerLabel" for="address">Address</label>
+              <input class="bookerInput" type="text" id="address" name="address" placeholder="Address" required>
+            </div>
+            <div class="bookerInfo">
+              <label class="bookerLabel" for="contact">Contact Number</label>
+              <input class="bookerInput" type="text" id="contact" name="c_number" placeholder="Contact Number" required>
+            </div>
+            <div class="bookerInfo">
+              <label class="bookerLabel" for="email">Email</label>
+              <input class="bookerInput" type="email" id="email" name="c_email" placeholder="Email" required>
+            </div>
+            <div class="bookerInfo">
+              <label class="bookerLabel" for="guestNum">Guest Number</label>
+              <input class="bookerInput" type="number" id="guestNum" name="g_number" placeholder="Guest Number" min="1" max="5">
+            </div>
+            <div class="bookerInfo">
+              <label class="bookerLabel" for="checkIn">Check In</label>
+                <label for="check_in"></label><label>
+                <input class="bookerInput" type="date" name="check_in" min="">
+            </label>
+            </div>
+            <div class="bookerInfo">
+              <label class="bookerLabel" for="checkOut">Check Out</label>
+                <label for="check_out"></label><label>
+                <input class="bookerInput" type="date" name="check_out">
+            </label>
+            </div>
+            <div class="submitButtonContainer">
+              <input class="submit" type="submit" id="submitButton">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
