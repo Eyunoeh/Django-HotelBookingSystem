@@ -61,7 +61,6 @@ def checkout(request):
 
 def update_delete_data(request):
     if request.method == 'POST':
-
         try:
             primary_key = request.POST.get('code')
             check_in = CheckIn.objects.get(code=primary_key)
