@@ -29,7 +29,8 @@ def thankyouPage(request):
 
 def checkIns(request):
     import random
-    record = CheckIn.objects.values_list('code', flat=True)
+    record_checkins = CheckIn.objects.values_list('code', flat=True)
+    record_checkouts = CheckOut.objects.values_list('code', flat=True)
 
     if request.method == 'POST':
         f_name = request.POST['f_name']
@@ -45,7 +46,7 @@ def checkIns(request):
             rand_code = random.randrange(111111, 999999)
             str_rand_code = str(rand_code)
             generated_code += str_rand_code
-            if generated_code not in record:
+            if generated_code not in record_checkins and record_checkouts:
                 check_n = CheckIn(first_name=f_name, last_name=l_name, address=address,
                                   contact_number=contact_num, email=email, guest_number=guest_num,
                                   checkIns=check_in, checkOut=check_out, code=generated_code)

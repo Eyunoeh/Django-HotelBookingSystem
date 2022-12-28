@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(63, 63, 63);
+  height: 3000px;
+}
+
+.bookContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  border-bottom: 1px solid rgb(53, 53, 53);
+}
+
+.buttonContainer {
+  font-size: 50px;
+  color: white;
+  font-family: Roboto, Arial, serif;
+  background-color: rgba(0, 0, 0, .1);
+  padding: 10px 10px 10px 10px;
+  transition: font-size .15s, padding .15s, background-color .15s;
+  cursor: pointer;
+}
+
+.buttonContainer:hover {
+  font-size: 100px;
+  padding: 20px 20px 20px 20px;
+  background-color: gray;
+}
+
+.buttonLink {
+  text-decoration: none;
+  color: white;
+}
+
+.githubPagesContainer {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 500px;
+}
+
+.git_hub_page_header {
+  font-size: 50px;
+  color: white;
+  font-family: Roboto, Arial, serif;
+  background-color: rgba(0, 0, 0, .1);
+  padding: 10px 10px 10px 10px;
+}

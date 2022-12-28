@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+	<meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Now!</title>
+  <link rel="stylesheet" href="{% static 'css/landing-page.css' %}">
+</head>
+<body>
+  <div class="bookContainer">
+    <div class="buttonContainer">
+      <a class="buttonLink" href="{% url 'book_now' %}">Book Now!</a>
+    </div>
+  </div>
+
+  <div class="githubPagesContainer">
+    <div class="buttonContainer">
+      <a class="buttonLink" href="https://github.com/Andeersonz/dumb-stuff-with-my-friend-xd">My GitHub Page</a>
+    </div>
+    <div class="buttonContainer">
+      <a class="buttonLink" href="https://github.com/Eyunoeh/Django-HotelBookingSystem">Eunoey's GitHub Page</a>
+    </div>
+  </div>
+</body>
+</html>
