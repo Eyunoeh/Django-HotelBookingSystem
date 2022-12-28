@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50d35f18-524f-4b6f-a905-8940aea35147" name="Changes" comment="commit" />
+    <list default="true" id="50d35f18-524f-4b6f-a905-8940aea35147" name="Changes" comment="commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/booking/static/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking/templates/booking/thankyou.html" beforeDir="false" afterPath="$PROJECT_DIR$/booking/templates/booking/thankyou.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/booking/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,24 +42,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/xpc/PycharmProjects/djangoProject/booking/static/css",
-    "settings.editor.selected.configurable": "file.status.colors"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/xpc/PycharmProjects/djangoProject/booking/static/css&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;file.status.colors&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ],
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "Jupyter"
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Jupyter&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\xpc\PycharmProjects\djangoProject\booking\static\css" />
@@ -91,6 +96,7 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="ShelveChangesManager" show_recycled="true" />
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -112,6 +118,7 @@
       <workItem from="1672196080809" duration="6673000" />
       <workItem from="1672226319142" duration="643000" />
       <workItem from="1672227145415" duration="291000" />
+      <workItem from="1672229711839" duration="670000" />
     </task>
     <task id="LOCAL-00001" summary="60% finish">
       <created>1672068580842</created>
@@ -176,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672228067594</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="commit">
+      <created>1672228267216</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1672228267216</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

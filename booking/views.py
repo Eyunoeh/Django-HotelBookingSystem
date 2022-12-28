@@ -9,6 +9,7 @@ from time import sleep
 
 
 def home_page(request):
+    sleep(2)
     return render(request, 'booking/landing-page.html')
 
 
