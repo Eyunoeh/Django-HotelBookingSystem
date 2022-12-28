@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50d35f18-524f-4b6f-a905-8940aea35147" name="Changes" comment="tite">
+    <list default="true" id="50d35f18-524f-4b6f-a905-8940aea35147" name="Changes" comment="wala">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b22f368b-1880-41df-9810-fec9769ea77e.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b22f368b-1880-41df-9810-fec9769ea77e/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b22f368b-1880-41df-9810-fec9769ea77e/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b22f368b-1880-41df-9810-fec9769ea77e/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b22f368b-1880-41df-9810-fec9769ea77e/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
     </list>
@@ -21,6 +26,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -105,7 +116,8 @@
       <workItem from="1672103027815" duration="301000" />
       <workItem from="1672146201049" duration="971000" />
       <workItem from="1672196080809" duration="6673000" />
-      <workItem from="1672226319142" duration="418000" />
+      <workItem from="1672226319142" duration="643000" />
+      <workItem from="1672227145415" duration="291000" />
     </task>
     <task id="LOCAL-00001" summary="60% finish">
       <created>1672068580842</created>
@@ -149,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672226557700</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="wala">
+      <created>1672226854367</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1672226854367</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +189,7 @@
     <MESSAGE value="60% finish" />
     <MESSAGE value="added landing page" />
     <MESSAGE value="tite" />
-    <option name="LAST_COMMIT_MESSAGE" value="tite" />
+    <MESSAGE value="wala" />
+    <option name="LAST_COMMIT_MESSAGE" value="wala" />
   </component>
 </project>
