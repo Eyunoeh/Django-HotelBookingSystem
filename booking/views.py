@@ -5,10 +5,16 @@ from .models import CheckIn, CheckOut
 from django.shortcuts import render
 from django.contrib import messages
 from django.shortcuts import redirect
+from time import sleep
 
 
 def home_page(request):
-    return render(request, 'booking/index.html', {'name': 'The Cow'})
+    return render(request, 'booking/landing-page.html')
+
+
+def book_now(request):
+    sleep(2)
+    return redirect('book')
 
 
 def book(request):
@@ -44,7 +50,7 @@ def checkIns(request):
                                   contact_number=contact_num, email=email, guest_number=guest_num,
                                   checkIns=check_in, checkOut=check_out, code=generated_code)
                 check_n.save()
-                from time import sleep
+
                 sleep(2)
                 break
 
