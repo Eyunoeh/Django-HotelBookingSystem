@@ -47,7 +47,7 @@ def checkIns(request):
             rand_code = random.randrange(111111, 999999)
             str_rand_code = str(rand_code)
             generated_code += str_rand_code
-            if generated_code not in record_checkins and record_checkouts:
+            if generated_code not in record_checkins not in record_checkouts:
                 check_n = CheckIn(first_name=f_name, last_name=l_name, address=address,
                                   contact_number=contact_num, email=email, guest_number=guest_num,
                                   checkIns=check_in, checkOut=check_out, code=generated_code)
